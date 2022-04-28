@@ -20,7 +20,7 @@
 		<h1>Job Vacancy Posting System</h1>
 
 		<?php
-	$filename="../../data/jobposts/jobs.txt";
+	$filename="data/jobposts/jobs.txt";
 				
 
 		//this is to validate stuff mainly and if the first bit is selected

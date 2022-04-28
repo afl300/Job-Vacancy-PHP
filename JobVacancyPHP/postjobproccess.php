@@ -98,12 +98,12 @@
 			$result = true;
 		}
 		
-		$filename="../../data/jobposts/jobs.txt";
+		$filename="data/jobposts/jobs.txt";
 		if($result == "true" && file_exists($filename)==false)
 		{
 			//this part is mainly to check if there is a file for this
 			umask(0007);
-			$dir = "../../data/jobposts";
+			$dir = "data/jobposts";
 			if (!is_dir($dir))
 			{
 				mkdir($dir,02770);
