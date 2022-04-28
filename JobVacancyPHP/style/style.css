@@ -1,0 +1,84 @@
+@charset "utf-8";
+/*
+filemane: style.css
+author: Clement Cheung
+student id: 103076376
+created: 21 August 2020
+last modified:21 August 2020
+description: 
+*/
+* {font-family: "Verdana", "Segoe UI", "Arial"}
+body, html {
+	margin: 0px;
+	height: 100%;
+	background-color: #fcf9f9;
+}
+
+/*This is for the header portion*/
+header {
+  padding: 0%;
+  background-color: #8cba51;
+  font-size: 30px;
+margin: 0px;
+	left: 0px;
+	top:0px;
+}
+
+header nav {
+	text-align: right;
+	float: right;
+	padding-top: 4%;
+	padding-right: 4%;
+}
+
+header nav a{
+	display: inline;
+	padding-left: 5%;
+	text-decoration: none;
+	color: #fcf9f9;
+}
+
+header nav a:hover, footer a:hover {color: #f1f864;}
+
+header nav a:active footer a:active{color: #bceb3c;}
+.logo {text-align: left;}
+
+/*This is for the footer portion*/
+footer{
+	position: relative;
+	bottom: 0px;
+	left: 0px;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	background-color: #8cba51;
+}
+
+footer h4, footer a{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+}
+footer h4{
+	font-size: 1.5em;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	color: #f1f864;
+}
+footer a{
+	text-decoration: none;
+	color: #fcf9f9; 
+	width: 30%;
+	display: block;
+	font-size: 1.2em;
+}
+
+/*stuff for index page*/
+#intro{
+	padding: 5px;
+	margin: 5%;
+	background-color: #f1f864;
+	border: double #bceb3c;
+	margin-bottom: 25%;
+}
+
